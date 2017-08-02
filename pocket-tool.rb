@@ -1,8 +1,8 @@
 class PocketTool < Formula
   desc "Command-line tool for bulk managing your Pocket list"
   homepage "https://github.com/ernstwi/pocket-tool"
-  url "https://github.com/ernstwi/pocket-tool/archive/1.0.0.tar.gz"
-  sha256 "a1787f8741cc4ccf452b8ae73f38818ebc5c80ec33fe78108b3e18069e6c669b"
+  url "https://github.com/ernstwi/pocket-tool/archive/1.0.1.tar.gz"
+  sha256 "c4751a26448f400de44f73005f5bcbc1ece7d4112f53781b8d6eda06e44ea7df"
 
   resource "jsmn" do
       url "https://github.com/zserge/jsmn/archive/35086597a72d94d8393e6a90b96e553d714085bd.tar.gz"
