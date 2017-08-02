@@ -11,7 +11,7 @@ class PocketTool < Formula
 
   def install
     resource("jsmn").stage {
-        system "make"
+        system "make CFLAGS=-DJSMN_PARENT_LINKS"
         buildpath.install "libjsmn.a"
         buildpath.install "jsmn.h"
     }
