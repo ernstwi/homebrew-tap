@@ -1,5 +1,5 @@
 class PocketTool < Formula
-  desc "Command-line tool for bulk managing your Pocket list"
+  desc "Article manager for Pocket"
   homepage "https://github.com/ernstwi/pocket-tool"
   url "https://github.com/ernstwi/pocket-tool/archive/1.0.1.tar.gz"
   sha256 "c4751a26448f400de44f73005f5bcbc1ece7d4112f53781b8d6eda06e44ea7df"
