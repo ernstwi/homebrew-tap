@@ -3,6 +3,7 @@ class PocketTool < Formula
   homepage "https://github.com/ernstwi/pocket-tool"
   url "https://github.com/ernstwi/pocket-tool/archive/1.0.2.tar.gz"
   sha256 "123da9490fd526f55d8cbcf3f045455ad73f885544094e979716447b808e0c31"
+  head "https://github.com/ernstwi/pocket-tool.git"
 
   resource "jsmn" do
       url "https://github.com/zserge/jsmn/archive/35086597a72d94d8393e6a90b96e553d714085bd.tar.gz"
