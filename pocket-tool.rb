@@ -1,8 +1,8 @@
 class PocketTool < Formula
   desc "Article manager for Pocket"
   homepage "https://github.com/ernstwi/pocket-tool"
-  url "https://github.com/ernstwi/pocket-tool/archive/1.0.2.tar.gz"
-  sha256 "123da9490fd526f55d8cbcf3f045455ad73f885544094e979716447b808e0c31"
+  url "https://github.com/ernstwi/pocket-tool/archive/1.1.0.tar.gz"
+  sha256 "2a47517b7253652eeca7c1209cd3928bc2f5c902d74af01c9eb2851e0f92dec5"
   head "https://github.com/ernstwi/pocket-tool.git"
 
   resource "jsmn" do
