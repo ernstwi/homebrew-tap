@@ -6,8 +6,8 @@ class PocketTool < Formula
   head "https://github.com/ernstwi/pocket-tool.git"
 
   resource "jsmn" do
-      url "https://github.com/zserge/jsmn/archive/35086597a72d94d8393e6a90b96e553d714085bd.tar.gz"
-      sha256 "9cf211b926e5fa288cb40037823d70f9c3e61cb696cf35fc15e29e8f48307376"
+      url "https://github.com/zserge/jsmn/archive/732d283ee9a2e5c34c52af0e044850576888ab09.tar.gz"
+      sha256 "7c25a7da1d36d3fe3071abb4efc9f2563d44a9f215520deed171874f5b353605"
   end
 
   def install
