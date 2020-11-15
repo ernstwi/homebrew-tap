@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+curl "https://registry.npmjs.org/@ernstwi/days/-/days-$1.tgz" -o days-$1.tgz
+SHA=$(shasum -a 256 days-$1.tgz | nvim -Es -c 's/ .*//' -c '%p')
+echo $SHA
+nvim -Es \
+    -c "%s/url \".*days-\\zs.*\\ze\\.tgz\"$/$1" \
+    -c "%s/sha256 \"\\zs.*\\ze\"$/$SHA" -c 'w' days.rb
+trash days-$1.tgz
