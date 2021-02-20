@@ -3,8 +3,8 @@ require "language/node"
 class Days < Formula
   desc "Journaling tool"
   homepage "https://github.com/ernstwi/days"
-  url "https://registry.npmjs.org/@ernstwi/days/-/days-1.9.2.tgz"
-  sha256 "805ad022091e065636980c11a7bcea42af495de7ef374e64e2199ba1464a80f6"
+  url "https://registry.npmjs.org/@ernstwi/days/-/days-1.9.3.tgz"
+  sha256 "177dcc25e70b08177ebbb2891e0bddcfc36ae60b951500e2d46111f14bb60520"
 
   depends_on "node"
 
