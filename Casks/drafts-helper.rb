@@ -2,10 +2,10 @@ cask "drafts-helper" do
   name "Drafts CLI Helper"
   desc "Helper tool for Drafts CLI"
   homepage "https://github.com/ernstwi/drafts"
-  version "0.1.0"
+  version "0.1.1"
 
   url "https://github.com/ernstwi/drafts/releases/download/v#{version}/drafts-cli-helper.tar.gz"
-  sha256 "5ef6f1d40533ecae69b70f1b2ed8083b3185c4bfe18c9baec96e618b82553d2f"
+  sha256 "6735df32bc869d90d53260b0fb51dae6f1554417a53350d14ee2b6d189bb4076"
 
   app "Drafts CLI Helper.app"
 end
