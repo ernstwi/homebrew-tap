@@ -1,14 +1,14 @@
 class Drafts < Formula
   desc "Drafts CLI"
   homepage "https://github.com/ernstwi/drafts"
-  version "0.1.1"
+  version "0.1.2"
   license "MIT"
 
   depends_on "fzf"
   depends_on :macos
 
   url "https://github.com/ernstwi/drafts/releases/download/v#{version}/drafts.tar.gz"
-  sha256 "4f6b2e3c3d0eed8a9a25200ed8221355e8a5c99f889162682f04c5769e2873d9"
+  sha256 "bd6aeb1599268632cbba275786b28f6863fb3c0d56da23acdb60b9ce42f372df"
 
   def install
     bin.install "drafts"
